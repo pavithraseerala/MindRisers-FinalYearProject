@@ -1,0 +1,117 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: about python 1
+  steps:
+  - intent: about_pep8
+  - action: utter_about_pep8
+
+- story: about python 2
+  steps: 
+  - intent: type_of_python
+  - action: utter_type_of_python
+
+- story: about python 3
+  steps: 
+  - intent: python_interpreted_language
+  - action: utter_python_interpreted_language
+
+- story: about python 4
+  steps:
+  - intent: python_py_pyc_files
+  - action: utter_python_py_pyc_files
+
+- story: about python 5
+  steps:
+  - intent: about_python
+  - action: utter_about_python
+
+- story: about python 6
+  steps:
+  - intent: python_pickling_unpickling
+  - action: utter_python_pickling_unpickling
+
+- story: about python 7
+  steps:
+  - intent: python_interpreted
+  - action: utter_python_interpreted
+
+- story: about python 8
+  steps:
+  - intent: python_fix_bugs
+  - action: utter_python_fix_bugs
+
+- story: about python 9
+  steps:
+  - intent: python_decorator
+  - action: utter_python_decorator
+
+- story: about python 10
+  steps:
+  - intent: about_python_list_tuple
+  - action: utter_about_python_list_tuple
+
+- story: about python 11
+  steps:
+  - intent: python_arguments_passed
+  - action: utter_python_arguments_passed
+
+- story: about python 12
+  steps:
+  - intent: python_dict_list_comp
+  - action: utter_python_dict_list_comp
+
+- story: about python 13
+  steps:
+  - intent: python_namespace
+  - action: utter_python_namespace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: about_pep8
+  examples: |
+    - What is pep 8?
+
+- intent: type_of_python
+  examples: |
+    - What type of language is python? Programming or scripting?
+    - What type of language is python?
+
+- intent: python_interpreted_language
+  examples: | 
+    - Python an interpreted language. Explain.
+    - Is python an interpreted language?
+
+- intent: python_py_pyc_files
+  examples: | 
+    - What is the difference between .py and .pyc files?
+
+- intent: about_python
+  examples: |
+    - What is python?
+    - What is Python? What are the benefits of using Python?
+
+- intent: python_pickling_unpickling
+  examples: |
+    - What is pickling and unpickling?
+
+- intent: python_interpreted
+  examples: |
+    - How is Python interpreted?
+
+- intent: python_fix_bugs
+  examples: |
+    - What are the tools that help to find bugs or perform the static analysis in python?
+
+- intent: python_decorator
+  examples: |
+    - What are Python decorators?
+
+- intent: about_python_list_tuple
+  examples: |
+    - What is the difference between list and tuple?
+
+- intent: python_arguments_passed
+  examples: |
+    - How are arguments passed by value or by reference in python?
+    - How are arguments passed in python?
+
+- intent: python_dict_list_comp
+  examples: |
+    - What is Dict and List comprehensions are?
+
+- intent: python_namespace
+  examples: |
+    - Explain namespace in Python
+
